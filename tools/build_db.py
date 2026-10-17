@@ -35,15 +35,15 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES = [
     dict(
         key="curated",
-        name="hand-picked classics (tools/curated.tsv)",
+        name="Hand-picked classics (this project)",
         repo=None,
         path="tools/curated.tsv",
-        license="MIT",
+        license="this project",
         weight=6,
     ),
     dict(
         key="w33ble",
-        name="emoticon-data (the set Splatmoji & rofimoji ship)",
+        name="emoticon-data by Joe Fleming",
         repo="w33ble/emoticon-data",
         commit="92b6211ec2a93e14052e0e572d697d4d06c71868",
         path="emoticons.json",
@@ -52,7 +52,7 @@ SOURCES = [
     ),
     dict(
         key="asciilib",
-        name="asciilib",
+        name="asciilib by Ian Sinnott",
         repo="iansinnott/asciilib",
         commit="52b034b55a684251b4f0c4974d707b9de4d198f4",
         path="lib.json",
@@ -61,7 +61,7 @@ SOURCES = [
     ),
     dict(
         key="kaomojiya",
-        name="kaomoji-collection (kaomojiya.org)",
+        name="kaomoji-collection by Kaomojiya",
         repo="kaomojiya-collection/kaomoji-collection",
         commit="2ca1b394345a437bbec9e9b9445d1dd75ae3f7d4",
         path="kaomoji.json",
@@ -70,11 +70,11 @@ SOURCES = [
     ),
     dict(
         key="ekohrt",
-        name="emoticon_kaomoji_dataset",
+        name="emoticon_kaomoji_dataset by ekohrt",
         repo="ekohrt/emoticon_kaomoji_dataset",
         commit="7d00fbba249adc1770025bcca56c74b42ad69ac1",
         path="emoticon_dict.json",
-        license="none stated (scraped from public kaomoji sites)",
+        license="none stated",
         weight=2,
     ),
 ]
@@ -442,11 +442,12 @@ def build_synonym_map() -> dict[str, list[str]]:
     return dict(m)
 
 
-def words_of(tags) -> set[str]:
-    out = set()
+def words_of(tags) -> dict[str, None]:
+    """Each tag and each word in it, in tag order (a dict, so rebuilds are deterministic)."""
+    out = {}
     for t in tags:
-        out.add(t)
-        out.update(t.split())
+        out[t] = None
+        out.update(dict.fromkeys(t.split()))
     return out
 
 

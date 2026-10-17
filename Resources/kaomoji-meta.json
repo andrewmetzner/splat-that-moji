@@ -4,38 +4,38 @@
  "count": 94562,
  "sources": [
   {
-   "name": "hand-picked classics (tools/curated.tsv)",
+   "name": "Hand-picked classics (this project)",
    "url": "",
    "commit": "",
-   "license": "MIT",
+   "license": "this project",
    "unique": 111
   },
   {
-   "name": "emoticon-data (the set Splatmoji & rofimoji ship)",
+   "name": "emoticon-data by Joe Fleming",
    "url": "https://github.com/w33ble/emoticon-data",
    "commit": "92b6211ec2a93e14052e0e572d697d4d06c71868",
    "license": "MIT",
    "unique": 1519
   },
   {
-   "name": "asciilib",
+   "name": "asciilib by Ian Sinnott",
    "url": "https://github.com/iansinnott/asciilib",
    "commit": "52b034b55a684251b4f0c4974d707b9de4d198f4",
    "license": "MIT",
    "unique": 248
   },
   {
-   "name": "kaomoji-collection (kaomojiya.org)",
+   "name": "kaomoji-collection by Kaomojiya",
    "url": "https://github.com/kaomojiya-collection/kaomoji-collection",
    "commit": "2ca1b394345a437bbec9e9b9445d1dd75ae3f7d4",
    "license": "MIT",
    "unique": 35127
   },
   {
-   "name": "emoticon_kaomoji_dataset",
+   "name": "emoticon_kaomoji_dataset by ekohrt",
    "url": "https://github.com/ekohrt/emoticon_kaomoji_dataset",
    "commit": "7d00fbba249adc1770025bcca56c74b42ad69ac1",
-   "license": "none stated (scraped from public kaomoji sites)",
+   "license": "none stated",
    "unique": 57557
   }
  ],

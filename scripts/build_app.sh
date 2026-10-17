@@ -20,6 +20,7 @@ mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 cp "$BIN" "$APP/Contents/MacOS/SplatThatMoji"
 cp Resources/Info.plist "$APP/Contents/Info.plist"
 cp Resources/kaomoji.tsv Resources/kaomoji-meta.json Resources/AppIcon.icns "$APP/Contents/Resources/"
+cp CREDITS.md "$APP/Contents/Resources/"  # the data's MIT notices travel with it
 
 IDENTITY="${SIGN_IDENTITY:-$(security find-identity -v -p codesigning 2>/dev/null \
     | awk -F'"' '/Apple Development|Developer ID Application/ { print $2; exit }')}"

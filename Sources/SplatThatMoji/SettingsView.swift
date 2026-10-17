@@ -175,9 +175,13 @@ private struct LibrarySettings: View {
             } header: {
                 Text("Database")
             } footer: {
-                Text("Merged and de-duplicated from open kaomoji datasets by tools/build_db.py. Inspired by Splatmoji.")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+                HStack {
+                    Text("Inspired by [Splatmoji](https://github.com/cspeterson/splatmoji) by Christopher Peterson.")
+                    Spacer()
+                    Link("Credits & Licenses", destination: URL(string: "https://github.com/andrewmetzner/splat-that-moji/blob/main/CREDITS.md")!)
+                }
+                .font(.caption)
+                .foregroundStyle(.secondary)
             }
 
             Section {

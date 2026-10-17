@@ -4,7 +4,7 @@ A kaomoji picker for macOS, in the spirit of [Splatmoji](https://github.com/cspe
 hit a hotkey, type a few letters, press Return, and the kaomoji lands in whatever app you were
 typing in.
 
-- **94,562 kaomoji**, merged and de-duplicated from five open datasets, with English keywords
+- **94,562 kaomoji**, merged and de-duplicated from five datasets ([credits](CREDITS.md)), with English keywords
   (plus romaji) and 39 browse categories.
 - **Fast search**: tag-word prefixes, synonyms (`glad` finds *happy*, `kitten` finds *cat*), typo
   tolerance (`hapyy`), and searching inside the kaomoji itself (`ω`, `ツ`, `^_^`, `┻━┻`). All
@@ -69,7 +69,7 @@ category.
 
 | Source | License | Notes |
 | --- | --- | --- |
-| [`tools/curated.tsv`](tools/curated.tsv) | MIT | About 110 classics with the names people search for ("look of disapproval", "finger guns", "deal with it") |
+| [`tools/curated.tsv`](tools/curated.tsv) | this project | About 110 classics with the names people search for ("look of disapproval", "finger guns", "deal with it") |
 | [w33ble/emoticon-data](https://github.com/w33ble/emoticon-data) | MIT | The set Splatmoji and rofimoji ship (1.5k, English tags) |
 | [iansinnott/asciilib](https://github.com/iansinnott/asciilib) | MIT | Named ASCII faces |
 | [kaomojiya-collection/kaomoji-collection](https://github.com/kaomojiya-collection/kaomoji-collection) | MIT | 41k kaomoji in 535 Japanese categories, each given English keywords in [`tools/kaomojiya_categories.tsv`](tools/kaomojiya_categories.tsv) |
@@ -90,13 +90,25 @@ python3 tools/build_db.py --stats   # rebuild the database and print category si
 swift test                          # search-quality tests against the real database
 ```
 
-> The ekohrt dataset has no license file. That's fine for personal use, but if you plan to
-> distribute the app, check with its author or remove that source from `SOURCES` in
+> The ekohrt dataset has no license file. It's included with credit (see [CREDITS.md](CREDITS.md)),
+> and I'll remove it if its author asks. To build without it, remove it from `SOURCES` in
 > `tools/build_db.py` and rebuild.
+
+## Credits
+
+- Inspired by [Splatmoji](https://github.com/cspeterson/splatmoji) by Christopher Peterson.
+- Kaomoji data by:
+  - Joe Fleming ([emoticon-data](https://github.com/w33ble/emoticon-data));
+  - Ian Sinnott ([asciilib](https://github.com/iansinnott/asciilib));
+  - [Kaomojiya](https://www.kaomojiya.org) ([kaomoji-collection](https://github.com/kaomojiya-collection/kaomoji-collection));
+  - [@ekohrt](https://github.com/ekohrt) ([emoticon_kaomoji_dataset](https://github.com/ekohrt/emoticon_kaomoji_dataset)), and the sites that dataset was collected from.
+
+[CREDITS.md](CREDITS.md) has the details and the full license notices.
 
 ## Layout
 
 ```
+CREDITS.md               attributions and third-party license notices
 Sources/KaomojiKit/      database loading + search engine (no AppKit; unit-tested)
 Sources/SplatThatMoji/   menu bar app: hotkey, picker panel, insertion, settings
 tools/                   database build pipeline and keyword tables
