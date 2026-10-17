@@ -1,0 +1,1438 @@
+{
+ "version": 1,
+ "generated": "2026-10-17",
+ "count": 94562,
+ "sources": [
+  {
+   "name": "hand-picked classics (tools/curated.tsv)",
+   "url": "",
+   "commit": "",
+   "license": "MIT",
+   "unique": 111
+  },
+  {
+   "name": "emoticon-data (the set Splatmoji & rofimoji ship)",
+   "url": "https://github.com/w33ble/emoticon-data",
+   "commit": "92b6211ec2a93e14052e0e572d697d4d06c71868",
+   "license": "MIT",
+   "unique": 1519
+  },
+  {
+   "name": "asciilib",
+   "url": "https://github.com/iansinnott/asciilib",
+   "commit": "52b034b55a684251b4f0c4974d707b9de4d198f4",
+   "license": "MIT",
+   "unique": 248
+  },
+  {
+   "name": "kaomoji-collection (kaomojiya.org)",
+   "url": "https://github.com/kaomojiya-collection/kaomoji-collection",
+   "commit": "2ca1b394345a437bbec9e9b9445d1dd75ae3f7d4",
+   "license": "MIT",
+   "unique": 35127
+  },
+  {
+   "name": "emoticon_kaomoji_dataset",
+   "url": "https://github.com/ekohrt/emoticon_kaomoji_dataset",
+   "commit": "7d00fbba249adc1770025bcca56c74b42ad69ac1",
+   "license": "none stated (scraped from public kaomoji sites)",
+   "unique": 57557
+  }
+ ],
+ "categories": [
+  {
+   "id": "happy",
+   "name": "Happy",
+   "icon": "(≧▽≦)",
+   "count": 19984
+  },
+  {
+   "id": "excited",
+   "name": "Excited",
+   "icon": "ヽ(°〇°)ﾉ",
+   "count": 2290
+  },
+  {
+   "id": "love",
+   "name": "Love",
+   "icon": "(♡˙︶˙♡)",
+   "count": 9626
+  },
+  {
+   "id": "cute",
+   "name": "Cute",
+   "icon": "(◕‿◕✿)",
+   "count": 3999
+  },
+  {
+   "id": "laugh",
+   "name": "Laughing",
+   "icon": "(≧∇≦)ﾉ",
+   "count": 1758
+  },
+  {
+   "id": "smug",
+   "name": "Smug",
+   "icon": "(￣ー￣)",
+   "count": 2149
+  },
+  {
+   "id": "shy",
+   "name": "Shy",
+   "icon": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+   "count": 8713
+  },
+  {
+   "id": "sad",
+   "name": "Sad",
+   "icon": "(´；ω；`)",
+   "count": 4389
+  },
+  {
+   "id": "cry",
+   "name": "Crying",
+   "icon": "(╥﹏╥)",
+   "count": 2549
+  },
+  {
+   "id": "angry",
+   "name": "Angry",
+   "icon": "(╬ Ò﹏Ó)",
+   "count": 5102
+  },
+  {
+   "id": "surprised",
+   "name": "Surprised",
+   "icon": "Σ(°ロ°)",
+   "count": 2400
+  },
+  {
+   "id": "scared",
+   "name": "Scared",
+   "icon": "(((ﾟДﾟ;)))",
+   "count": 3319
+  },
+  {
+   "id": "confused",
+   "name": "Confused",
+   "icon": "(・・ ) ?",
+   "count": 1155
+  },
+  {
+   "id": "sleepy",
+   "name": "Sleepy",
+   "icon": "(－_－) zzZ",
+   "count": 2314
+  },
+  {
+   "id": "meh",
+   "name": "Meh",
+   "icon": "(￢_￢)",
+   "count": 1018
+  },
+  {
+   "id": "shrug",
+   "name": "Shrug",
+   "icon": "¯\\_(ツ)_/¯",
+   "count": 837
+  },
+  {
+   "id": "tableflip",
+   "name": "Table Flip",
+   "icon": "(╯°□°)╯︵ ┻━┻",
+   "count": 801
+  },
+  {
+   "id": "greeting",
+   "name": "Hello & Bye",
+   "icon": "(^_^)/",
+   "count": 2629
+  },
+  {
+   "id": "thanks",
+   "name": "Thanks & Sorry",
+   "icon": "m(_ _)m",
+   "count": 1833
+  },
+  {
+   "id": "hug",
+   "name": "Hugs & Pats",
+   "icon": "(づ｡◕‿‿◕｡)づ",
+   "count": 1865
+  },
+  {
+   "id": "celebrate",
+   "name": "Celebrate",
+   "icon": "＼(＾▽＾)／",
+   "count": 2138
+  },
+  {
+   "id": "dance",
+   "name": "Dance & Music",
+   "icon": "┏(・o･)┛♪",
+   "count": 2198
+  },
+  {
+   "id": "run",
+   "name": "Running",
+   "icon": "ε=ε=┌( >_<)┘",
+   "count": 2416
+  },
+  {
+   "id": "fight",
+   "name": "Fighting",
+   "icon": "(ง'̀-'́)ง",
+   "count": 3986
+  },
+  {
+   "id": "dead",
+   "name": "Dead & Defeated",
+   "icon": "(x_x)",
+   "count": 1801
+  },
+  {
+   "id": "hide",
+   "name": "Hiding & Peeking",
+   "icon": "|･ω･)",
+   "count": 1120
+  },
+  {
+   "id": "think",
+   "name": "Thinking",
+   "icon": "(￣～￣;)",
+   "count": 1885
+  },
+  {
+   "id": "gesture",
+   "name": "Gestures",
+   "icon": "(☞ﾟヮﾟ)☞",
+   "count": 5561
+  },
+  {
+   "id": "food",
+   "name": "Food & Drink",
+   "icon": "(っ˘ڡ˘ς)",
+   "count": 2813
+  },
+  {
+   "id": "cat",
+   "name": "Cats",
+   "icon": "(=^･ω･^=)",
+   "count": 2854
+  },
+  {
+   "id": "dog",
+   "name": "Dogs",
+   "icon": "U・ᴥ・U",
+   "count": 2381
+  },
+  {
+   "id": "bear",
+   "name": "Bears",
+   "icon": "ʕ•ᴥ•ʔ",
+   "count": 4637
+  },
+  {
+   "id": "bunny",
+   "name": "Bunnies",
+   "icon": "(/•ᴥ•\\)",
+   "count": 752
+  },
+  {
+   "id": "animals",
+   "name": "Animals",
+   "icon": "(・θ・)",
+   "count": 4282
+  },
+  {
+   "id": "magic",
+   "name": "Magic & Sparkles",
+   "icon": "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+   "count": 5348
+  },
+  {
+   "id": "evil",
+   "name": "Evil & Spooky",
+   "icon": "ψ(｀∇´)ψ",
+   "count": 2174
+  },
+  {
+   "id": "weather",
+   "name": "Weather & Seasons",
+   "icon": "☀(ˊᗜˋ)",
+   "count": 1651
+  },
+  {
+   "id": "work",
+   "name": "Work & Hobbies",
+   "icon": "φ(．．)",
+   "count": 1801
+  },
+  {
+   "id": "characters",
+   "name": "Characters & Memes",
+   "icon": "( ͡° ͜ʖ ͡°)",
+   "count": 2644
+  }
+ ],
+ "synonyms": {
+  "joy": [
+   "happy"
+  ],
+  "joyful": [
+   "happy"
+  ],
+  "glad": [
+   "happy"
+  ],
+  "delighted": [
+   "happy"
+  ],
+  "cheerful": [
+   "happy"
+  ],
+  "yay": [
+   "happy"
+  ],
+  "happiness": [
+   "happy"
+  ],
+  "elated": [
+   "happy"
+  ],
+  "laughing": [
+   "laugh"
+  ],
+  "lol": [
+   "laugh"
+  ],
+  "lmao": [
+   "laugh"
+  ],
+  "haha": [
+   "laugh"
+  ],
+  "rofl": [
+   "laugh"
+  ],
+  "giggle": [
+   "laugh"
+  ],
+  "giggling": [
+   "laugh"
+  ],
+  "chuckle": [
+   "laugh"
+  ],
+  "cackle": [
+   "laugh"
+  ],
+  "laughter": [
+   "laugh"
+  ],
+  "crying": [
+   "cry"
+  ],
+  "tears": [
+   "cry"
+  ],
+  "sob": [
+   "cry"
+  ],
+  "sobbing": [
+   "cry"
+  ],
+  "weep": [
+   "cry"
+  ],
+  "weeping": [
+   "cry"
+  ],
+  "teary": [
+   "cry"
+  ],
+  "bawling": [
+   "cry"
+  ],
+  "wailing": [
+   "cry"
+  ],
+  "cries": [
+   "cry"
+  ],
+  "unhappy": [
+   "sad"
+  ],
+  "depressed": [
+   "sad"
+  ],
+  "sorrow": [
+   "sad"
+  ],
+  "gloomy": [
+   "sad"
+  ],
+  "dejected": [
+   "sad"
+  ],
+  "sadness": [
+   "sad"
+  ],
+  "melancholy": [
+   "sad"
+  ],
+  "downcast": [
+   "sad"
+  ],
+  "crestfallen": [
+   "sad"
+  ],
+  "anger": [
+   "angry"
+  ],
+  "mad": [
+   "angry"
+  ],
+  "rage": [
+   "angry"
+  ],
+  "furious": [
+   "angry"
+  ],
+  "fuming": [
+   "angry"
+  ],
+  "pissed": [
+   "angry"
+  ],
+  "irate": [
+   "angry"
+  ],
+  "enraged": [
+   "angry"
+  ],
+  "irritated": [
+   "annoyed"
+  ],
+  "irked": [
+   "annoyed"
+  ],
+  "annoying": [
+   "annoyed"
+  ],
+  "frustrated": [
+   "annoyed"
+  ],
+  "irritating": [
+   "annoyed"
+  ],
+  "loving": [
+   "love"
+  ],
+  "in love": [
+   "love"
+  ],
+  "adore": [
+   "love"
+  ],
+  "lovestruck": [
+   "love"
+  ],
+  "smitten": [
+   "love"
+  ],
+  "infatuated": [
+   "love"
+  ],
+  "hearts": [
+   "heart"
+  ],
+  "kissing": [
+   "kiss"
+  ],
+  "smooch": [
+   "kiss"
+  ],
+  "kisses": [
+   "kiss"
+  ],
+  "kissy": [
+   "kiss"
+  ],
+  "kawaii": [
+   "cute"
+  ],
+  "adorable": [
+   "cute"
+  ],
+  "cutie": [
+   "cute"
+  ],
+  "surprise": [
+   "surprised"
+  ],
+  "shock": [
+   "surprised"
+  ],
+  "shocked": [
+   "surprised"
+  ],
+  "astonished": [
+   "surprised"
+  ],
+  "amazed": [
+   "surprised"
+  ],
+  "gasp": [
+   "surprised"
+  ],
+  "omg": [
+   "surprised"
+  ],
+  "startled": [
+   "surprised"
+  ],
+  "afraid": [
+   "scared"
+  ],
+  "fear": [
+   "scared"
+  ],
+  "frightened": [
+   "scared"
+  ],
+  "terrified": [
+   "scared"
+  ],
+  "scary": [
+   "scared"
+  ],
+  "horror": [
+   "scared"
+  ],
+  "spooked": [
+   "scared"
+  ],
+  "anxious": [
+   "nervous"
+  ],
+  "worried": [
+   "nervous"
+  ],
+  "uneasy": [
+   "nervous"
+  ],
+  "sweating": [
+   "nervous"
+  ],
+  "sweat": [
+   "nervous"
+  ],
+  "anxiety": [
+   "nervous"
+  ],
+  "puzzled": [
+   "confused"
+  ],
+  "perplexed": [
+   "confused"
+  ],
+  "bewildered": [
+   "confused"
+  ],
+  "huh": [
+   "confused"
+  ],
+  "question": [
+   "confused"
+  ],
+  "confusion": [
+   "confused"
+  ],
+  "exhausted": [
+   "tired"
+  ],
+  "sleepy": [
+   "tired"
+  ],
+  "drowsy": [
+   "tired"
+  ],
+  "weary": [
+   "tired"
+  ],
+  "worn out": [
+   "tired"
+  ],
+  "fatigue": [
+   "tired"
+  ],
+  "sleeping": [
+   "sleep"
+  ],
+  "asleep": [
+   "sleep"
+  ],
+  "zzz": [
+   "sleep"
+  ],
+  "nap": [
+   "sleep"
+  ],
+  "napping": [
+   "sleep"
+  ],
+  "snore": [
+   "sleep"
+  ],
+  "snoring": [
+   "sleep"
+  ],
+  "blush": [
+   "shy"
+  ],
+  "blushing": [
+   "shy"
+  ],
+  "embarrassed": [
+   "shy"
+  ],
+  "bashful": [
+   "shy"
+  ],
+  "flustered": [
+   "shy"
+  ],
+  "timid": [
+   "shy"
+  ],
+  "smirk": [
+   "smug"
+  ],
+  "smirking": [
+   "smug"
+  ],
+  "proud": [
+   "smug"
+  ],
+  "sly": [
+   "smug"
+  ],
+  "pride": [
+   "smug"
+  ],
+  "hi": [
+   "hello"
+  ],
+  "hey": [
+   "hello"
+  ],
+  "greeting": [
+   "hello"
+  ],
+  "greetings": [
+   "hello"
+  ],
+  "howdy": [
+   "hello"
+  ],
+  "hiya": [
+   "hello"
+  ],
+  "yo": [
+   "hello"
+  ],
+  "goodbye": [
+   "bye"
+  ],
+  "farewell": [
+   "bye"
+  ],
+  "see you": [
+   "bye"
+  ],
+  "cya": [
+   "bye"
+  ],
+  "sayonara": [
+   "bye"
+  ],
+  "later": [
+   "bye"
+  ],
+  "waving": [
+   "wave"
+  ],
+  "thank you": [
+   "thanks"
+  ],
+  "thx": [
+   "thanks"
+  ],
+  "grateful": [
+   "thanks"
+  ],
+  "gratitude": [
+   "thanks"
+  ],
+  "arigato": [
+   "thanks"
+  ],
+  "arigatou": [
+   "thanks"
+  ],
+  "thankful": [
+   "thanks"
+  ],
+  "apologize": [
+   "sorry"
+  ],
+  "apology": [
+   "sorry"
+  ],
+  "apologies": [
+   "sorry"
+  ],
+  "my bad": [
+   "sorry"
+  ],
+  "apologetic": [
+   "sorry"
+  ],
+  "beg": [
+   "please"
+  ],
+  "begging": [
+   "please"
+  ],
+  "plead": [
+   "please"
+  ],
+  "pleading": [
+   "please"
+  ],
+  "hugs": [
+   "hug"
+  ],
+  "hugging": [
+   "hug"
+  ],
+  "cuddle": [
+   "hug"
+  ],
+  "cuddling": [
+   "hug"
+  ],
+  "embrace": [
+   "hug"
+  ],
+  "snuggle": [
+   "hug"
+  ],
+  "dancing": [
+   "dance"
+  ],
+  "dancer": [
+   "dance"
+  ],
+  "groove": [
+   "dance"
+  ],
+  "song": [
+   "music"
+  ],
+  "sing": [
+   "music"
+  ],
+  "singing": [
+   "music"
+  ],
+  "karaoke": [
+   "music"
+  ],
+  "singer": [
+   "music"
+  ],
+  "running": [
+   "run"
+  ],
+  "runner": [
+   "run"
+  ],
+  "dash": [
+   "run"
+  ],
+  "sprint": [
+   "run"
+  ],
+  "flee": [
+   "run"
+  ],
+  "fleeing": [
+   "run"
+  ],
+  "fighting": [
+   "fight"
+  ],
+  "punch": [
+   "fight"
+  ],
+  "punching": [
+   "fight"
+  ],
+  "attack": [
+   "fight"
+  ],
+  "kick": [
+   "fight"
+  ],
+  "kicking": [
+   "fight"
+  ],
+  "beat up": [
+   "fight"
+  ],
+  "brawl": [
+   "fight"
+  ],
+  "violence": [
+   "fight"
+  ],
+  "boxing": [
+   "fight"
+  ],
+  "flex": [
+   "strong"
+  ],
+  "flexing": [
+   "strong"
+  ],
+  "muscles": [
+   "strong"
+  ],
+  "muscle": [
+   "strong"
+  ],
+  "buff": [
+   "strong"
+  ],
+  "power": [
+   "strong"
+  ],
+  "strength": [
+   "strong"
+  ],
+  "death": [
+   "dead"
+  ],
+  "die": [
+   "dead"
+  ],
+  "dying": [
+   "dead"
+  ],
+  "rip": [
+   "dead"
+  ],
+  "deceased": [
+   "dead"
+  ],
+  "died": [
+   "dead"
+  ],
+  "cats": [
+   "cat"
+  ],
+  "kitty": [
+   "cat"
+  ],
+  "kitten": [
+   "cat"
+  ],
+  "kitties": [
+   "cat"
+  ],
+  "neko": [
+   "cat"
+  ],
+  "meow": [
+   "cat"
+  ],
+  "nya": [
+   "cat"
+  ],
+  "nyaa": [
+   "cat"
+  ],
+  "kitteh": [
+   "cat"
+  ],
+  "dogs": [
+   "dog"
+  ],
+  "puppy": [
+   "dog"
+  ],
+  "doggy": [
+   "dog"
+  ],
+  "doggo": [
+   "dog"
+  ],
+  "pup": [
+   "dog"
+  ],
+  "inu": [
+   "dog"
+  ],
+  "woof": [
+   "dog"
+  ],
+  "doggie": [
+   "dog"
+  ],
+  "puppies": [
+   "dog"
+  ],
+  "bears": [
+   "bear"
+  ],
+  "kuma": [
+   "bear"
+  ],
+  "teddy": [
+   "bear"
+  ],
+  "teddy bear": [
+   "bear"
+  ],
+  "bunny": [
+   "rabbit"
+  ],
+  "bunnies": [
+   "rabbit"
+  ],
+  "usagi": [
+   "rabbit"
+  ],
+  "rabbits": [
+   "rabbit"
+  ],
+  "birds": [
+   "bird"
+  ],
+  "birdie": [
+   "bird"
+  ],
+  "tori": [
+   "bird"
+  ],
+  "piggy": [
+   "pig"
+  ],
+  "buta": [
+   "pig"
+  ],
+  "oink": [
+   "pig"
+  ],
+  "pigs": [
+   "pig"
+  ],
+  "eat": [
+   "food"
+  ],
+  "eating": [
+   "food"
+  ],
+  "meal": [
+   "food"
+  ],
+  "hungry": [
+   "food"
+  ],
+  "yummy": [
+   "food"
+  ],
+  "delicious": [
+   "food"
+  ],
+  "tasty": [
+   "food"
+  ],
+  "munching": [
+   "food"
+  ],
+  "nom": [
+   "food"
+  ],
+  "drinking": [
+   "drink"
+  ],
+  "cheers": [
+   "drink"
+  ],
+  "toast": [
+   "drink"
+  ],
+  "beer": [
+   "drink"
+  ],
+  "booze": [
+   "drink"
+  ],
+  "drinks": [
+   "drink"
+  ],
+  "cafe": [
+   "coffee"
+  ],
+  "latte": [
+   "coffee"
+  ],
+  "whatever": [
+   "shrug"
+  ],
+  "idk": [
+   "shrug"
+  ],
+  "dunno": [
+   "shrug"
+  ],
+  "shrugging": [
+   "shrug"
+  ],
+  "meh": [
+   "unimpressed"
+  ],
+  "bored": [
+   "unimpressed"
+  ],
+  "disapproval": [
+   "unimpressed"
+  ],
+  "disapprove": [
+   "unimpressed"
+  ],
+  "deadpan": [
+   "unimpressed"
+  ],
+  "not amused": [
+   "unimpressed"
+  ],
+  "table flip": [
+   "tableflip"
+  ],
+  "flip table": [
+   "tableflip"
+  ],
+  "flipping table": [
+   "tableflip"
+  ],
+  "flip the table": [
+   "tableflip"
+  ],
+  "chabudaigaeshi": [
+   "tableflip"
+  ],
+  "flipping tables": [
+   "tableflip"
+  ],
+  "winking": [
+   "wink"
+  ],
+  "exciting": [
+   "excited"
+  ],
+  "hype": [
+   "excited"
+  ],
+  "hyped": [
+   "excited"
+  ],
+  "thrilled": [
+   "excited"
+  ],
+  "eager": [
+   "excited"
+  ],
+  "pumped": [
+   "excited"
+  ],
+  "excitement": [
+   "excited"
+  ],
+  "celebration": [
+   "celebrate"
+  ],
+  "party": [
+   "celebrate"
+  ],
+  "congratulations": [
+   "celebrate"
+  ],
+  "congrats": [
+   "celebrate"
+  ],
+  "hooray": [
+   "celebrate"
+  ],
+  "hurray": [
+   "celebrate"
+  ],
+  "woohoo": [
+   "celebrate"
+  ],
+  "partying": [
+   "celebrate"
+  ],
+  "devil": [
+   "evil"
+  ],
+  "devilish": [
+   "evil"
+  ],
+  "villain": [
+   "evil"
+  ],
+  "sinister": [
+   "evil"
+  ],
+  "wicked": [
+   "evil"
+  ],
+  "magical": [
+   "magic"
+  ],
+  "wizard": [
+   "magic"
+  ],
+  "witch": [
+   "magic"
+  ],
+  "wand": [
+   "magic"
+  ],
+  "spell": [
+   "magic"
+  ],
+  "sparkles": [
+   "sparkle"
+  ],
+  "sparkly": [
+   "sparkle"
+  ],
+  "glitter": [
+   "sparkle"
+  ],
+  "sparkling": [
+   "sparkle"
+  ],
+  "shiny": [
+   "sparkle"
+  ],
+  "shades": [
+   "sunglasses"
+  ],
+  "deal with it": [
+   "sunglasses"
+  ],
+  "awesome": [
+   "cool"
+  ],
+  "le lenny face": [
+   "lenny"
+  ],
+  "lenny face": [
+   "lenny"
+  ],
+  "dongers": [
+   "donger"
+  ],
+  "raise your dongers": [
+   "donger"
+  ],
+  "writing": [
+   "write"
+  ],
+  "note": [
+   "write"
+  ],
+  "notes": [
+   "write"
+  ],
+  "memo": [
+   "write"
+  ],
+  "taking notes": [
+   "write"
+  ],
+  "pc": [
+   "computer"
+  ],
+  "laptop": [
+   "computer"
+  ],
+  "typing": [
+   "computer"
+  ],
+  "keyboard": [
+   "computer"
+  ],
+  "cash": [
+   "money"
+  ],
+  "rich": [
+   "money"
+  ],
+  "dollar": [
+   "money"
+  ],
+  "dollars": [
+   "money"
+  ],
+  "guns": [
+   "gun"
+  ],
+  "shoot": [
+   "gun"
+  ],
+  "shooting": [
+   "gun"
+  ],
+  "pistol": [
+   "gun"
+  ],
+  "rifle": [
+   "gun"
+  ],
+  "swords": [
+   "sword"
+  ],
+  "katana": [
+   "sword"
+  ],
+  "blade": [
+   "sword"
+  ],
+  "spooky": [
+   "ghost"
+  ],
+  "ghosts": [
+   "ghost"
+  ],
+  "hiding": [
+   "hide"
+  ],
+  "hidden": [
+   "hide"
+  ],
+  "peeking": [
+   "peek"
+  ],
+  "peep": [
+   "peek"
+  ],
+  "peeping": [
+   "peek"
+  ],
+  "peekaboo": [
+   "peek"
+  ],
+  "glance": [
+   "peek"
+  ],
+  "thinking": [
+   "think"
+  ],
+  "ponder": [
+   "think"
+  ],
+  "pondering": [
+   "think"
+  ],
+  "hmm": [
+   "think"
+  ],
+  "wonder": [
+   "think"
+  ],
+  "wondering": [
+   "think"
+  ],
+  "thoughtful": [
+   "think"
+  ],
+  "pointing": [
+   "point"
+  ],
+  "good job": [
+   "thumbs up"
+  ],
+  "well done": [
+   "thumbs up"
+  ],
+  "approve": [
+   "thumbs up"
+  ],
+  "thumbsup": [
+   "thumbs up"
+  ],
+  "okay": [
+   "ok"
+  ],
+  "yeah": [
+   "yes"
+  ],
+  "yep": [
+   "yes"
+  ],
+  "agree": [
+   "yes"
+  ],
+  "nodding": [
+   "yes"
+  ],
+  "nope": [
+   "no"
+  ],
+  "nah": [
+   "no"
+  ],
+  "flowers": [
+   "flower"
+  ],
+  "blossom": [
+   "flower"
+  ],
+  "rose": [
+   "flower"
+  ],
+  "roses": [
+   "flower"
+  ],
+  "stars": [
+   "star"
+  ],
+  "starry": [
+   "star"
+  ],
+  "rainy": [
+   "rain"
+  ],
+  "raining": [
+   "rain"
+  ],
+  "umbrella": [
+   "rain"
+  ],
+  "snowy": [
+   "snow"
+  ],
+  "snowing": [
+   "snow"
+  ],
+  "snowman": [
+   "snow"
+  ],
+  "sunny": [
+   "sun"
+  ],
+  "sunshine": [
+   "sun"
+  ],
+  "xmas": [
+   "christmas"
+  ],
+  "santa": [
+   "christmas"
+  ],
+  "pumpkin": [
+   "halloween"
+  ],
+  "jack o lantern": [
+   "halloween"
+  ],
+  "bday": [
+   "birthday"
+  ],
+  "happy birthday": [
+   "birthday"
+  ],
+  "fishing": [
+   "fish"
+  ],
+  "fishy": [
+   "fish"
+  ],
+  "froggy": [
+   "frog"
+  ],
+  "toad": [
+   "frog"
+  ],
+  "ape": [
+   "monkey"
+  ],
+  "monkeys": [
+   "monkey"
+  ],
+  "mice": [
+   "mouse"
+  ],
+  "rat": [
+   "mouse"
+  ],
+  "ill": [
+   "sick"
+  ],
+  "unwell": [
+   "sick"
+  ],
+  "vomit": [
+   "sick"
+  ],
+  "puke": [
+   "sick"
+  ],
+  "throw up": [
+   "sick"
+  ],
+  "vomiting": [
+   "sick"
+  ],
+  "saluting": [
+   "salute"
+  ],
+  "clapping": [
+   "clap"
+  ],
+  "applause": [
+   "clap"
+  ],
+  "shouting": [
+   "shout"
+  ],
+  "yell": [
+   "shout"
+  ],
+  "yelling": [
+   "shout"
+  ],
+  "scream": [
+   "shout"
+  ],
+  "screaming": [
+   "shout"
+  ],
+  "creep": [
+   "creepy"
+  ],
+  "pervert": [
+   "creepy"
+  ],
+  "pervy": [
+   "creepy"
+  ]
+ }
+}
